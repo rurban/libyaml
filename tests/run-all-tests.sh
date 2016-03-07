@@ -15,7 +15,7 @@ main() {
 
   cmake .
   make
-  make test
+  make check
 
   clean
 }
