@@ -8,9 +8,6 @@
 static int
 yaml_emitter_set_writer_error(yaml_emitter_t *emitter, const char *problem);
 
-YAML_DECLARE(int)
-yaml_emitter_flush(yaml_emitter_t *emitter);
-
 /*
  * Set the writer error and return 0.
  */

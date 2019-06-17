@@ -15,9 +15,6 @@ yaml_parser_update_raw_buffer(yaml_parser_t *parser);
 static int
 yaml_parser_determine_encoding(yaml_parser_t *parser);
 
-YAML_DECLARE(int)
-yaml_parser_update_buffer(yaml_parser_t *parser, size_t length);
-
 /*
  * Set the reader error and return 0.
  */

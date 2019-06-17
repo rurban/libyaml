@@ -2,11 +2,8 @@
 #include "yaml_private.h"
 
 /*
- * API functions.
+ * API functions: see yaml.h
  */
-
-YAML_DECLARE(int)
-yaml_parser_load(yaml_parser_t *parser, yaml_document_t *document);
 
 /*
  * Error handling.

@@ -2,17 +2,8 @@
 #include "yaml_private.h"
 
 /*
- * API functions.
+ * API functions: see yaml.h
  */
-
-YAML_DECLARE(int)
-yaml_emitter_open(yaml_emitter_t *emitter);
-
-YAML_DECLARE(int)
-yaml_emitter_close(yaml_emitter_t *emitter);
-
-YAML_DECLARE(int)
-yaml_emitter_dump(yaml_emitter_t *emitter, yaml_document_t *document);
 
 /*
  * Clean up functions.

@@ -567,11 +567,8 @@
     1) : 0)
 
 /*
- * Public API declarations.
+ * Public API declarations: see yaml.h
  */
-
-YAML_DECLARE(int)
-yaml_parser_scan(yaml_parser_t *parser, yaml_token_t *token);
 
 /*
  * Error handling.
@@ -584,9 +581,6 @@ yaml_parser_set_scanner_error(yaml_parser_t *parser, const char *context,
 /*
  * High-level token API.
  */
-
-YAML_DECLARE(int)
-yaml_parser_fetch_more_tokens(yaml_parser_t *parser);
 
 static int
 yaml_parser_fetch_next_token(yaml_parser_t *parser);

@@ -62,11 +62,8 @@
           1)))
 
 /*
- * API functions.
+ * API functions: see yaml.h
  */
-
-YAML_DECLARE(int)
-yaml_emitter_emit(yaml_emitter_t *emitter, yaml_event_t *event);
 
 /*
  * Utility functions.
